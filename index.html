@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Knockoff Metroid</title>
+    <link rel="icon" type="image/x-icon" href="./Images/knockOffSamus.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <style>
+        body {
+            text-align: center;
+        };
+    </style>
+    <div></div>
+    <script>
+
+    document.querySelector("div").appendChild(runGame(simpleLevelPlan, DOMDisplay));
+    </script>
+
+    <!-- <script>
+    document.querySelector('div').appendChild(startPixelEditor({}))
+    </script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div></div>
+
+
+    <script>
+    document.querySelector("div").appendChild(startPixelEditor({}));
+    </script> -->
+
+
+
+
+<!-- <canvas width="600" height="300"></canvas> -->
+<!-- <script>
+
+
+
+let cx = document.querySelector("canvas").getContext("2d");
+
+
+
+function branch(length, angle, scale) {
+    cx.fillRect(0, 0, 1, length);
+    if(length < 8) return;
+    cx.save();
+    cx.translate(0, length);
+    cx.rotate(-angle);
+    branch(length * scale, angle, scale);
+    cx.rotate(2 * angle);
+    branch(length * scale, angle, scale);
+    cx.restore()
+}
+cx.translate(300, 0);
+branch(60, 0.5, 0.8) 
+
+ </script> 
+
+
+
+
+ let cx = document.querySelector("canvas").getContext("2d");
+let img = document.createElement("img")
+img.src = "./Green-Figure.png";
+let spriteW = 24
+let spriteH = 30
+img.addEventListener("load", () => {
+    let cycle = 0;
+    setInterval(() => {
+        cx.clearRect(0, 0, spriteW, spriteH);
+        cx.drawImage(img, 
+        //source rectangle
+        cycle * spriteW, 0, spriteW, spriteH, 
+        //destination rectangle
+        0, 0, spriteW, spriteH);
+        cycle = (cycle + 1) % 8;
+    }, 120);
+}) -->
+</script> 
+
+</body>
+</html>
+
+
